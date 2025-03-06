@@ -1,60 +1,48 @@
 {
-  "ciudad" 
-  "fecha" 
-  "autos" [
-    {
-      "marca": "Toyota",
-      "modelo": "Corolla",
-      "año": 2024,
-      "tipo": "Sedán",
-      "precio": 380000,
-      "caracteristicas": {
-        "motor": "2.0L 4 cilindros",
-        "transmision": "Automática CVT",
-        "rendimiento": "15 km/l en ciudad, 20 km/l en carretera",
-        "seguridad": ["Frenos ABS", "Bolsas de aire", "Control de estabilidad"]
-      },
-      "comentarios": [
+    [
         {
-          "usuario": "CarlosMtz",
-          "comentario": "Un auto muy confiable y con buen rendimiento de combustible.",
-          "fecha": "2025-03-05"
-        }
-      ]
-    },
-    {
-      "marca": "Tesla",
-      "modelo": "Model 3",
-      "año": 2024,
-      "tipo": "Eléctrico",
-      "precio": 900000,
-      "caracteristicas": {
-        "motor": "Dual Motor AWD",
-        "autonomia": "500 km por carga",
-        "aceleracion": "0 a 100 km/h en 4.4 segundos",
-        "seguridad": ["Piloto automático", "Frenado de emergencia", "Asistente de mantenimiento de carril"]
-      },
-      "comentarios": [
+            "titulo": "El nuevo deportivo eléctrico revoluciona el mercado",
+            "descripcion": "Un nuevo auto deportivo completamente eléctrico ha sido lanzado, ofreciendo una autonomía de 600 km y aceleración de 0 a 100 km/h en 3 segundos.",
+            "categoria": "Deportivos",
+            "fecha_publicacion": "2025-03-05",
+            "enlace": "https://ejemplo.com/deportivo-electrico",
+            "etiquetas": ["Eléctrico", "Deportivo", "Innovación"],
+            "comentarios": [
+                {
+                    "usuario": "JuanPerez",
+                    "comentario": "Increíble avance en la industria automotriz!",
+                    "fecha": "2025-03-05"
+                },
+                {
+                    "usuario": "MariaLopez",
+                    "comentario": "Me encantaría probarlo, se ve impresionante!",
+                    "fecha": "2025-03-05"
+                }
+            ]
+        },
         {
-          "usuario": "AnaLopez",
-          "comentario": "Me encanta la tecnología de Tesla, aunque el precio es alto.",
-          "fecha": "2025-03-04"
+            "titulo": "SUV híbrida con tecnología de última generación",
+            "descripcion": "Una nueva SUV híbrida ha sido presentada, combinando eficiencia y potencia con un diseño moderno y aerodinámico.",
+            "categoria": "SUV",
+            "fecha_publicacion": "2025-03-04",
+            "enlace": "https://ejemplo.com/suv-hibrida",
+            "etiquetas": ["Híbrido", "SUV", "Tecnología"],
+            "comentarios": [
+                {
+                    "usuario": "CarlosGomez",
+                    "comentario": "Excelente opción para quienes buscan eficiencia y espacio.",
+                    "fecha": "2025-03-04"
+                }
+            ]
+        },
+        {
+            "titulo": "El clásico que regresa: un muscle car con motor V8",
+            "descripcion": "Un fabricante ha decidido relanzar un modelo clásico de muscle car, ahora con tecnología moderna pero sin perder su esencia V8.",
+            "categoria": "Clásicos",
+            "fecha_publicacion": "2025-03-03",
+            "enlace": "https://ejemplo.com/muscle-car-v8",
+            "etiquetas": ["Clásico", "Muscle Car", "V8"],
+            "comentarios": []
         }
-      ]
-    },
-    {
-      "marca": "Ford",
-      "modelo": "Mustang",
-      "año": 2024,
-      "tipo": "Deportivo",
-      "precio": 950000,
-      "caracteristicas": {
-        "motor": "5.0L V8",
-        "potencia": "450 hp",
-        "transmision": "Manual de 6 velocidades",
-        "seguridad": ["Control de tracción", "Frenos de alto rendimiento", "Monitoreo de punto ciego"]
-      },
-      "comentarios": []
-    }
-  ]
+    ]
 }
